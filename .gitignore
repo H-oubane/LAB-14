@@ -1,0 +1,47 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Fichiers sensibles supplementaires
+*.log
+*.keystore
+*.jks
+/secrets.properties
+encrypted_prefs.xml
+
+# Fichiers generes par Android Studio
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.navigation/
+*.lock
+*.swp
+*.swo
+
+# Fichiers de build Gradle
+build/
+*/build/
+*/*/build/
+**/build/
+
+# Fichiers de configuration locaux
+.idea/
+.gradle/
+**/local.properties
+**/gradle.properties.bak
