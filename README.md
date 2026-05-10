@@ -22,31 +22,31 @@ com.example.securestoragelabjava/
 
 ├── ui/
 
-  └── MainActivity.java # Interface utilisateur principale
+    └── MainActivity.java # Interface utilisateur principale
 
 ├── prefs/
 
-  ├── AppPrefs.java # SharedPreferences (non chiffre)
+    ├── AppPrefs.java # SharedPreferences (non chiffre)
 
-  └── SecurePrefs.java # EncryptedSharedPreferences (chiffre)
+    └── SecurePrefs.java # EncryptedSharedPreferences (chiffre)
 
 ├── files/
 
-  ├── InternalTextStore.java # Stockage texte UTF-8
+    ├── InternalTextStore.java # Stockage texte UTF-8
 
-  └── StudentsJsonStore.java # Stockage JSON
+    └── StudentsJsonStore.java # Stockage JSON
 
 ├── cache/
 
-  └── CacheStore.java # Gestion du cache temporaire
+    └── CacheStore.java # Gestion du cache temporaire
 
 ├── external/
 
-  └── ExternalAppFilesStore.java # Stockage externe app-specific
+    └── ExternalAppFilesStore.java # Stockage externe app-specific
 
 └── model/
 
-└── Student.java # Modele de donnees
+    └── Student.java # Modele de donnees
 
 
 
